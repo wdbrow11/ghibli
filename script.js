@@ -22,7 +22,7 @@ request.onload = function() {
       
     // Create a p and set the text content to the film's description
     const p = document.createElement('p');
-    movie.description = movie.description.substring(0,300); // Limit to 300 characters
+    const movie.description = movie.description.substring(0,300); // Limit to 300 characters
     p.textContent = `${movie.desctiption}...`; //End with an ellipses
       
     // Append the cards to the container element
