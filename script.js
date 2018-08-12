@@ -20,7 +20,7 @@ request.onload = function() {
 // Send request
 request.send();
 
-const app = $('#root')
+const app = document.getElementById('#root')
 const logo = document.createElement('img');
   logo.src = 'logo.png';
 const container = document.createElement('div');
