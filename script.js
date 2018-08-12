@@ -15,6 +15,7 @@ request.onload = function() {
   } else {
     console.log('error');
 }
+}
 
 // Send request
 request.send();
